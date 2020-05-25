@@ -77,7 +77,7 @@ could be defined as::
     }
 
 The fact that both base dimensions use the same identifier ``"L"`` tells
-the library that bot definitions refer to the same physical dimension of
+the library that both definitions refer to the same physical dimension of
 length. The only difference is the measurement unit used to define their
 base dimensions. Thanks to using `si::centimetre` in the `cgs::dim_length`
 definition we also enabled the ability to easily convert between those
